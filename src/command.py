@@ -13,7 +13,7 @@ def user_starts():
 
 def get_board(guesses, solution):
     hints = [""] * 5
-    print(guesses)
+    print("Past guesses: " + ', '.join(guesses))
 
     for i in range(len(guesses)):
         for j in range(len(guesses[i])):
